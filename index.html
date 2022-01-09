@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Calender</title>
+</head>
+<body>
+    <div class="calender container">
+        <div class="head_section">
+            <span id="prev_month">
+                <strong><</strong>
+            </span>
+            <div class="head_details_wrapper">
+                <div class="month">
+                    <!-- Month -->
+                </div>
+                <p class="details_date">
+                    <!-- day details -->
+                </p>
+            </div>
+            <span id="next_month">
+                <strong>></strong>
+            </span>
+        </div>
+        <div class="main">
+            <div class="week_days">
+                <div class="days">SUN</div>
+                <div class="days">MON</div>
+                <div class="days">TUES</div>
+                <div class="days">WED</div>
+                <div class="days">THUS</div>
+                <div class="days">FRI</div>
+                <div class="days">SAT</div>
+            </div>
+            <div class="dates_container">
+                <!-- dates will go here -->
+            </div>
+        </div>
+    </div>
+    <form  id="form">
+        <div id="closeForm">
+            <span>X</span>
+        </div>
+        <label for="fname">Title:</label><br>
+        <input type="text" id="fname" name="fname" ><br>
+        <label for="lname">Note:</label><br>
+        <textarea type="text" id="lname" name="lname"></textarea><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+    <script src="./script.js"></script>
+</body>
+</html>
