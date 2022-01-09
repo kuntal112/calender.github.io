@@ -69,7 +69,7 @@ const form = document.getElementById("form");
 let cross= document.getElementById("closeForm");
 
 let displayFOrm=()=>{
-    form.style.display="block"
+    form.style.display="flex"
 }
 cross.addEventListener("click",()=>{
     form.style.display="none"
